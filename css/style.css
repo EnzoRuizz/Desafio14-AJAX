@@ -1,0 +1,40 @@
+form {
+    width: 200px;
+    margin: 20px auto;
+}
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.tarjeta{
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.containerImg{
+    position: relative;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.estadisticas div{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.imagen{
+    width: 100%;
+    height: 100%;
+}

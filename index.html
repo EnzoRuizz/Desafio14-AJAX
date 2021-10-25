@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+
+   <form action="" onsubmit="buscarPokemon(event)">
+        <input type="text" name="pokemon" autocomplete="off">
+   </form>
+   <div data-poke-card class="tarjeta">
+        <div data-poke-name>Ingresa el nombre del pokemon que quieras buscar</div>
+        <div data-poke-img-container class="containerImg">
+            <img data-poke-img class="imagen" src="assets/multimedia/pokemon.jpg" />
+        </div>
+        <div data-poke-id></div>
+        <div data-poke-stats class="estadisticas"></div>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+</html>
